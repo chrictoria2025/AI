@@ -38,3 +38,18 @@ In our example we will use a very simple agent with two tools: `get_weather` and
 * Hosting Agents on Amazon Bedrock AgentCore Runtime
 * Using Amazon Bedrock models
 * Using Strands Agents
+
+
+
+$$$$$$$$ from Chris $$$$$$$
+
+export AWS_ACCESS_KEY_ID="xxxx"
+export AWS_SECRET_ACCESS_KEY="xxxx"
+export AWS_DEFAULT_REGION="us-east-1"
+
+
+01-strands-with-bedrock-model$ cd /home/xchen/mntvsecops/AI/01-tutorials/01-AgentCore-runtime/01-hosting-agent/01-strands-with-bedrock-model && source .venv/bin/activate && which python3
+
+
+python3 -m venv venv
+source venv/bin/activate

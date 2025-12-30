@@ -48,3 +48,49 @@ For demonstration purposes, we will use a very simple MCP server with 3 tools: `
 ### Tutorial Key Features
 
 * Hosting MCP Server
+
+
+
+
+
+
+
+
+
+$$$$ added by Chris 
+
+1. Create and activate a virtual environment
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. Export/Activate required AWS Credentials for the notebook to run
+
+export AWS_ACCESS_KEY_ID="AKIASDYABMB7B3CTXLK3"
+export AWS_SECRET_ACCESS_KEY="xxxxxxxxx"
+export AWS_DEFAULT_REGION="us-east-1"
+
+
+4. Register your virtual environment as a kernel for Jupyter notebook to use
+```bash
+pip install ipykernel
+python -m ipykernel install --user --name=notebook-venv --display-name="Python (notebook-venv)"
+```
+
+You can list your kernels using:
+```bash
+jupyter kernelspec list
+```
+
+Available kernels:
+  python3       /home/xchen/mntvsecops/AI/01-tutorials/01-AgentCore-runtime/01-hosting-agent/01-strands-with-bedrock-model/.venv/share/jupyter/kernels/python3
+  mcp-server    /home/xchen/.local/share/jupyter/kernels/mcp-server
+
+
+5. Select the notebook kernel b4 running notebook
