@@ -1,0 +1,135 @@
+{
+    "SecretList": [
+        {
+            "ARN": "arn:aws:secretsmanager:us-east-1:145492107390:secret:NewSecret-Y9QcUL",
+            "Name": "NewSecret",
+            "KmsKeyId": "arn:aws:kms:us-east-1:145492107390:key/875a72c3-1ccb-4b48-9cc8-a663145155e5",
+            "RotationEnabled": true,
+            "RotationLambdaARN": "arn:aws:lambda:us-east-1:145492107390:function:AWS-Secrets-Manager-1-SecretsRotateFunction36713F6-L7OF0UzQcoxO",
+            "RotationRules": {
+                "AutomaticallyAfterDays": 1,
+                "ScheduleExpression": "rate(4 hours)"
+            },
+            "LastChangedDate": "2024-05-08T09:03:45.009000-07:00",
+            "LastAccessedDate": "2025-01-27T16:00:00-08:00",
+            "NextRotationDate": "2024-10-29T17:59:59-07:00",
+            "Tags": [],
+            "SecretVersionsToStages": {
+                "8df5e0d7-18c7-4c54-93d7-b8c9d39980ea": [
+                    "AWSPENDING"
+                ],
+                "b1ea0a13-b708-4248-80e2-fd9e21a2901d": [
+                    "AWSCURRENT"
+                ]
+            },
+            "CreatedDate": "2024-05-08T09:03:44.606000-07:00"
+        },
+        {
+            "ARN": "arn:aws:secretsmanager:us-east-1:145492107390:secret:zscalerApi-Wl29yK",
+            "Name": "zscalerApi",
+            "LastChangedDate": "2025-01-16T14:51:33.031000-08:00",
+            "LastAccessedDate": "2025-03-13T17:00:00-07:00",
+            "Tags": [],
+            "SecretVersionsToStages": {
+                "7bc84682-21c4-4d8c-a374-9bd3a177b3b7": [
+                    "AWSPREVIOUS"
+                ],
+                "b9c63691-dfb0-413e-85c0-49add2213998": [
+                    "AWSCURRENT"
+                ]
+            },
+            "CreatedDate": "2025-01-16T14:48:22.974000-08:00"
+        },
+        {
+            "ARN": "arn:aws:secretsmanager:us-east-1:145492107390:secret:ziaApiKey-zVgeDX",
+            "Name": "ziaApiKey",
+            "Description": "SMAL integration with ZIA",
+            "LastChangedDate": "2025-03-02T11:04:40.094000-08:00",
+            "LastAccessedDate": "2025-03-01T16:00:00-08:00",
+            "Tags": [],
+            "SecretVersionsToStages": {
+                "1fa67262-bf05-4667-8e5d-12ed7e0990fe": [
+                    "AWSPREVIOUS"
+                ],
+                "d93ef2d9-901a-4d98-b028-d6a64eb507c8": [
+                    "AWSCURRENT"
+                ]
+            },
+            "CreatedDate": "2025-01-17T13:01:44.109000-08:00"
+        },
+        {
+            "ARN": "arn:aws:secretsmanager:us-east-1:145492107390:secret:zsOneAPI-jKvKZ9",
+            "Name": "zsOneAPI",
+            "LastChangedDate": "2025-03-02T10:41:02.399000-08:00",
+            "LastAccessedDate": "2025-11-28T16:00:00-08:00",
+            "Tags": [],
+            "SecretVersionsToStages": {
+                "1dd9a517-33df-45b0-a485-10fd90a936e1": [
+                    "AWSPREVIOUS"
+                ],
+                "5209ce39-49a9-46f9-9ff4-e94437497ed4": [
+                    "AWSCURRENT"
+                ]
+            },
+            "CreatedDate": "2025-01-20T17:46:12.001000-08:00"
+        },
+        {
+            "ARN": "arn:aws:secretsmanager:us-east-1:145492107390:secret:test_permission-zM0c7U",
+            "Name": "test_permission",
+            "LastChangedDate": "2025-01-28T11:48:59.829000-08:00",
+            "Tags": [],
+            "SecretVersionsToStages": {
+                "aba2205d-94b3-4650-a491-a51148dbe88f": [
+                    "AWSCURRENT"
+                ]
+            },
+            "CreatedDate": "2025-01-28T11:48:59.789000-08:00"
+        },
+        {
+            "ARN": "arn:aws:secretsmanager:us-east-1:145492107390:secret:google-credentials-L23SPH",
+            "Name": "google-credentials",
+            "Description": "sam test ecs cluster pipeline",
+            "LastChangedDate": "2025-02-16T17:36:27.443000-08:00",
+            "LastAccessedDate": "2025-02-16T16:00:00-08:00",
+            "Tags": [],
+            "SecretVersionsToStages": {
+                "764722b1-058a-49f3-88c1-bfdcbc2d22c2": [
+                    "AWSCURRENT"
+                ],
+                "a616c941-756f-4470-b373-2f3ed4408491": [
+                    "AWSPREVIOUS"
+                ]
+            },
+            "CreatedDate": "2025-02-02T10:27:01.881000-08:00"
+        },
+        {
+            "ARN": "arn:aws:secretsmanager:us-east-1:145492107390:secret:mcp_server/cognito/credentials-JLSz7o",
+            "Name": "mcp_server/cognito/credentials",
+            "Description": "Cognito credentials for MCP server",
+            "LastChangedDate": "2025-12-27T21:51:37.178000-08:00",
+            "LastAccessedDate": "2025-12-27T16:00:00-08:00",
+            "SecretVersionsToStages": {
+                "18668950-0895-4bbb-a1b8-65b247ce6703": [
+                    "AWSPREVIOUS"
+                ],
+                "7df64439-805c-4c8c-b1b1-1c41866ab813": [
+                    "AWSCURRENT"
+                ]
+            },
+            "CreatedDate": "2025-12-27T21:35:22.553000-08:00"
+        },
+        {
+            "ARN": "arn:aws:secretsmanager:us-east-1:145492107390:secret:customer_support_agent-Vv6Bqu",
+            "Name": "customer_support_agent",
+            "Description": "Secret containing the Cognito Configuration for the Customer Support Agent",
+            "LastChangedDate": "2025-12-28T16:16:30.951000-08:00",
+            "LastAccessedDate": "2026-01-01T16:00:00-08:00",
+            "SecretVersionsToStages": {
+                "4c0c03e5-04e7-4bb8-a2f5-d727b2ed670d": [
+                    "AWSCURRENT"
+                ]
+            },
+            "CreatedDate": "2025-12-28T16:16:30.912000-08:00"
+        }
+    ]
+}
