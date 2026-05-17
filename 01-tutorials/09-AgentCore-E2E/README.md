@@ -136,7 +136,7 @@ pip install -r requirements.txt
 
 3. Export/Activate required AWS Credentials for the notebook to run
 
-export AWS_ACCESS_KEY_ID="AKIASDYABMB7B3CTXLK3"
+export AWS_ACCESS_KEY_ID="xxxxx"
 export AWS_SECRET_ACCESS_KEY="xxxxxxxxx"
 export AWS_DEFAULT_REGION="us-east-1"
 
