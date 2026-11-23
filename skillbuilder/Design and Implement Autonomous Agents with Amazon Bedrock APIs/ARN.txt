@@ -1,0 +1,50 @@
+BedrockAgentLambdaCreateITSM
+arn:aws:lambda:eu-west-2:242734630127:function:SkillBuilder-BedrockAgent-CreateITSM-Function
+
+BedrockAgentLambdaLookupITSM
+arn:aws:lambda:eu-west-2:242734630127:function:SkillBuilder-BedrockAgent-LookupITSM-Function
+
+BedrockAgentRoleArn
+arn:aws:iam::242734630127:role/BedrockAgentRole
+
+BedrockKnowledgeBaseRoleArn
+arn:aws:iam::242734630127:role/BedrockKnowledgeBaseRole
+
+NotebookInstanceUrl
+https://NotebookInstance-4LlAoUr7nUo0.notebook.eu-west-2.sagemaker.aws/lab
+
+S3BucketBKB
+labstack-a1c260ab-3223-4e5d-bed6-a3637-s3bucketbkb-tzxafgf0vbhp
+
+
+
+
+BedrockKnowledgeBaseRole
+Policy name 
+	
+Type
+	
+Attached entities
+
+BedrockKnowledgeBasePolicy
+Customer inline
+0
+RegionPinningPolicy
+Customer managed
+7
+
+
+
+BedrockAgentRole
+Policy name 
+	
+Type
+	
+Attached entities
+
+BedrockAgentPolicySB
+Customer inline
+0
+RegionPinningPolicy
+Customer managed
+7
